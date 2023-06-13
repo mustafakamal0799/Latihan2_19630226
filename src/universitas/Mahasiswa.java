@@ -9,7 +9,16 @@ public class Mahasiswa {
         this.prodi = prodi;
     }
     
-    public void setNPM (String npm){
+    public String getNama(){
+        return nama;
+    }
+    public String getNpm(){
+        return npm;
+    }
+    public String getProdi(){
+        return prodi;
+    }
+    public void setNpm (String npm){
         this.npm = npm;
     }
     public void setNama (String nama){
@@ -18,4 +27,5 @@ public class Mahasiswa {
     public void setProdi (String prodi){
         this.prodi = prodi;
     }
+    
 }
